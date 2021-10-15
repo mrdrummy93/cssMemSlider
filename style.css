@@ -1,0 +1,24 @@
+.app-wrapper {
+  width: 1920px;
+  height: 900px;
+  margin: 0 auto;
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  align-items: center;
+}
+
+.slider-wrapper {
+  margin: 0 auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+p {
+  color: #fff;
+}
