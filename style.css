@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color: rgb(136, 133, 133);
+	background-color: rgb(0, 0, 0);
 }
 
 .app-wrapper {
@@ -83,7 +83,7 @@ body {
 .app-wrapper .dots {
 	left: 50%;
   top: 10%;
-	margin: 0 14rem;
+	margin: 0 -6rem;
 	position: relative;
 }
 
