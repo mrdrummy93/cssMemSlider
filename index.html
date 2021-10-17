@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,54 @@
   <title>cssMemSlider</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="app-wrapper">
     <div class="slider-wrapper">
-    <div class="slide active">
-      <img src="assets/image1.jpg" alt="">
-      <p>Ни с чем не сравнимое чувство</p>
-    </div>
-    <div class="slide">
-      <img src="assets/image2.jpg" alt="">
-      <p>Главное, самому водкой не стать</p>
-    </div>
-    <div class="slide">
-      <img src="assets/image3.jfif" alt="">
-      <p>CSS Positioning & Flexbox</p>
-    </div>
-    <div class="slide">
-      <img src="assets/image4.jpg" alt="">
-      <p>Безпощадный JavaScript</p>
-    </div>
-    <div class="slide">
-      <img src="assets/image5.jpg" alt="">
-      <p>Chrome Dev Tools решает</p>
-    </div>
-    <div class="dots">
-      <circle class="dot active" cx='14' cy='14' r='12' fill='none' stroke-width='2'></circle>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
+      <div class="image-wrapper">
+        <div class="slide active">
+          <img src="assets/image1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/image2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/image3.jfif" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/image4.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/image5.jpg" alt="">
+        </div>
+      </div>
+      <div class="bottom-wrapper">
+        <div class="desc active">
+          <p>Ни с чем не сравнимое чувство</p>
+        </div>
+        <div class="desc">
+          <p>Главное, самому водкой не стать</p>
+        </div>
+        <div class="desc">
+          <p>Media Queries & Responsive</p>
+        </div>
+        <div class="desc">
+          <p>Безпощадный JavaScript</p>
+        </div>
+        <div class="desc">
+          <p>Chrome Dev Tools решает</p>
+        </div>
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+  <script src="script.js"></script>
 </body>
+
 </html>
